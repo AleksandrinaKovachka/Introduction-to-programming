@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-  cout << sizeof(int) << endl;
+      cout << sizeof(int) << endl;
       cout << sizeof(double) << endl;
       cout << sizeof(float) << endl;
       cout << sizeof(char) << endl;
@@ -13,5 +13,5 @@ int main()
       cout << sizeof(long long) << endl;
       cout << sizeof(unsiged) << endl;
     
-  return 0;
+      return 0;
 }
