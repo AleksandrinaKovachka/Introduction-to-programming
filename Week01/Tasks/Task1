@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int a; //деклариране на променлива
+
+	a = 5; //дефиниране на променлива
+
+  //извеждане на променлива
+  cout << "the output is: " << a << endl;
+  
+  //деклариране на променлива и въвеждане на стойност от клавиатурата
+  int b;
+	cout << "input a: ";
+	cin >> a;
+  cout << "the output is: " << a << endl;
+
+  return 0;
+}
