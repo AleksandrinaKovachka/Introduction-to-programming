@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  //първи вариант
+  int a = 248;
+	int thirdDigit = a % 10; //8
+	a /= 10; // a = 24
+	int secondDigit = a % 10; //4
+	a /= 10; // a = 2;
+	int firstDigit = a;
+  
+  cout << thirdDigit << secondDigit << firstDigit << endl;
+
+  //втори вариант
+	int reverse = a % 10; //8
+	a /= 10; //a = 24
+	reverse *= 10; //reverse = 80
+	reverse += a % 10; // reverse = 84
+	a /= 10; // a = 2
+	reverse *= 10; // reverse = 840
+	reverse += a;
+
+	cout << reverse << endl;
+
+  return 0;
+}
