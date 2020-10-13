@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-  	cout << sizeof(int) << endl;
-    cout << sizeof(double) << endl;
-    cout << sizeof(float) << endl;
-    cout << sizeof(char) << endl;
-    cout << sizeof(short) << endl;
-    cout << sizeof(long) << endl;
-    cout << sizeof(long long) << endl;
-    cout << sizeof(unsiged) << endl;
+  	  cout << sizeof(int) << endl;
+      cout << sizeof(double) << endl;
+      cout << sizeof(float) << endl;
+      cout << sizeof(char) << endl;
+      cout << sizeof(short) << endl;
+      cout << sizeof(long) << endl;
+      cout << sizeof(long long) << endl;
+      cout << sizeof(unsiged) << endl;
     
-  	return 0;
+  	  return 0;
 }
