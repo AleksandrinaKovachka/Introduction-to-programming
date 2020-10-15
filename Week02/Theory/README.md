@@ -24,6 +24,17 @@ bool a = false;
 
 ! (not) - връща true ако е false и обратното
 
+```
+Примери:
+  cout << 1 || 1 && 0;
+	cout << !1 || 0 && 1;
+	cout << false && true || false;
+	cout << !(1 || 0 && 1);
+	cout << false && (true || false);
+	cout << !(!1 || 0 && 1) || (false && true || false);
+
+```
+
 
 ***Условен оператор if - констукция:***
 
