@@ -135,3 +135,5 @@ void main()
 
 Допълващото отрицателно число е -16384
 ```
+
+[Задачи](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Bitwise-operations/Tasks)
