@@ -17,6 +17,7 @@
 
 Изход: TRUE
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week02/Tasks/Task1)
 
 Задача 2:
 =
@@ -28,6 +29,7 @@
 
 Изход: 26 / No
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week02/Tasks/Task2)
 
 Задача 3:
 =
@@ -39,6 +41,7 @@
 
 Изход: Yes
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week02/Tasks/Task3)
 
 Задача 4:
 =
@@ -53,4 +56,4 @@
 
 Изход: NO 149
 ```
-
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week02/Tasks/Task4)
