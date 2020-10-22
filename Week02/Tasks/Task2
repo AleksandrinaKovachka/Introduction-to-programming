@@ -1,0 +1,31 @@
+using namespace std;
+
+int main()
+{
+	int firstNumber, secondNumber;
+
+	cout << "First number: ";
+	cin >> firstNumber;
+
+	cout << "Second number: ";
+	cin >> secondNumber;
+
+	int max = 0;
+
+	if (firstNumber > secondNumber)
+	{
+		cout << firstNumber << " > " << secondNumber << endl;
+		max = firstNumber;
+	}
+	else
+	{
+		cout << secondNumber << " > " << firstNumber << endl;
+		max = secondNumber;
+	}
+
+	bool div = secondNumber % firstNumber == 0;
+
+	div == true ? cout << "Yes\n" : cout << "No\n";
+  
+  return 0;
+}
