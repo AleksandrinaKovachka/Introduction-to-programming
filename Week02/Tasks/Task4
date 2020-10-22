@@ -1,0 +1,29 @@
+using namespace std;
+
+int main()
+{
+	int number, k, multiplies = 1;
+
+	cout << "Input number: ";
+	cin >> number;
+
+	cout << "Input k: ";
+	cin >> k;
+
+	multiplies *= number % 10; // multiplies = 3
+	number /= 10; //number = 12
+	multiplies *= number % 10; // multiplies = 6
+	number /= 10; //number = 1
+	multiplies *= number; //multiplies = 6
+
+	if (multiplies > k)
+	{
+		cout << multiplies + k << endl;
+	}
+	else
+	{
+		cout << multiplies - k << endl;
+	}
+  
+  return 0;
+}
