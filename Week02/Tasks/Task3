@@ -1,0 +1,31 @@
+using namespace std;
+
+int main()
+{
+	int number;
+	int firstSum = 0, secondSum = 0;
+
+	cout << "Input number: ";
+	cin >> number;
+
+	secondSum += number % 10; //secondSum = 4;
+	number /= 10; //number = 123
+
+	secondSum += number % 10; // secondSum = 7
+	number /= 10; // number = 12
+
+	firstSum += number % 10; // firstSum = 2
+	number /= 10; // number = 1
+	firstSum += number; // firstSum = 3
+
+	if (firstSum > secondSum)
+	{
+		cout << "first digit > second digit\n";
+	}
+	else
+	{
+		cout << "second digit > first digit\n";
+	}
+  
+  return 0;
+}
