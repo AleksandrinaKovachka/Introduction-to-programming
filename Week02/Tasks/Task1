@@ -1,0 +1,31 @@
+using namespace std;
+
+int main()
+{
+	//zad_1 - a
+	int number;
+
+	cout << "Input number: ";
+	cin >> number;
+
+	bool have5 = (number > 99 && number < 1000) && (number % 10 == 5);
+
+	cout << have5 << endl;
+
+	//написана задачата с if
+	if ((number > 99 && number < 1000) && (number % 10 == 5))
+	{
+		cout << "Yes\n";
+	}
+	else
+	{
+		cout << "No\n";
+	}
+
+  //zad_1 - b
+	bool div3And5 = (number > 99 && number < 1000) && (number % 5 == 0 && number % 3 == 0);
+
+	cout << div3And5 << endl;
+  
+  return 0;
+}
