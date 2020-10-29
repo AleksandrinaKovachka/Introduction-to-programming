@@ -93,7 +93,7 @@ void zeroSwitch()
 		}
 		default: 
 		{
-			cout << "VW Polo\n";
+			cout << "default\n";
 		}
 	}
 }
