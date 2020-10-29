@@ -7,4 +7,6 @@
 
 [Седмица 3](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week03/README.md)
 
+[Седмица 4](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week04/README.md)
+
 [Допълнителен материал](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Bitwise-operations)
