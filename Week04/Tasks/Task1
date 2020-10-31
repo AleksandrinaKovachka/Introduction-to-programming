@@ -4,22 +4,37 @@ using namespace std;
 
 int main()
 {
-	int numberOfDay;
+	//решение представено с for
+	int sum = 0; //променлива, в която ще съхранявам сумата на числата от 1 до 10
 
-	cout << "Input number of day: ";
-	cin >> numberOfDay;
-
-	switch (numberOfDay)
+	for (int i = 1; i <= 10; i++)
 	{
-	case 1: cout << "Monday" << endl; break;
-	case 2: cout << "Tuesday" << endl; break;
-	case 3: cout << "Wednesday" << endl; break;
-	case 4: cout << "Thursday" << endl; break;
-	case 5: cout << "Friday" << endl; break;
-	case 6: cout << "Saturday" << endl; break;
-	case 7: cout << "Sunday" << endl; break;
-	default: cout << "The number is not day of week\n";
+		sum += i;
 	}
+
+	cout << sum << endl;
+	
+	//решение представено с while
+	sum = 0; //използвам същата променлива за сбора като на този ред и задавам отново да е със стойност 0
+	int index = 1;
+	while (index <= 10)
+	{
+		sum += index;
+		index++;
+	}
+
+	cout << sum << endl;
+
+	//решение представено с do...while
+	sum = 0; //използвам същата променлива за сбора като на този ред и задавам отново да е със стойност 0
+	index = 1;
+	do
+	{
+		sum += index;
+		++index; // <=> index++
+	} while (index <= 10);
+
+	cout << sum << endl;
   
   return 0;
 }
