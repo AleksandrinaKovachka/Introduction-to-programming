@@ -7,6 +7,7 @@
 Вход: 5 
 Изход: Friday
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week03/Tasks/Task1)
 
 Задача 2:
 =
@@ -18,6 +19,7 @@
 -
 Изход: 3
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week03/Tasks/Task2)
 
 Задача 3:
 =
@@ -26,6 +28,7 @@
 Вход: 1 
 Изход: one
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week03/Tasks/Task3)
 
 Задача 4:
 =
@@ -39,6 +42,7 @@
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |римска цифра| I | V | X | L | C | D | M |
 
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week03/Tasks/Task4)
 
 Бонус задача:
 =
