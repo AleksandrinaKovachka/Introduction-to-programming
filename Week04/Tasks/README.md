@@ -7,6 +7,8 @@
 - оператор while
 - оператор do...while
 
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week04/Tasks/Task1)
+
 Задача 2:
 =
 Напишете програма, която въвежда от клавиатурата естествено число n и извежда всички естествени числа, по-малки от n и кратни на 5.
@@ -14,6 +16,7 @@
 Вход: 14
 Изход: 5 10
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week04/Tasks/Task2)
 
 Задача 3:
 =
