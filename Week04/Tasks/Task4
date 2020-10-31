@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int number;
+
+	cout << "Input number: ";
+	cin >> number;
+
+	switch (number)
+	{
+	case 1: cout << 'I' << endl; break;
+	case 5: cout << "V\n"; break;
+	case 10: cout << 'X' << endl; break;
+	case 50: cout << 'L' << endl; break;
+	case 100: cout << 'C' << endl; break;
+	case 500: cout << 'D' << endl; break;
+	case 1000: cout << 'M' << endl; break;
+	default: cout << "Invalid number\n";
+	}
+  
+  return 0;
+}
