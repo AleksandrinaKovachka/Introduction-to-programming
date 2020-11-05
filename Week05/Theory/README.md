@@ -82,6 +82,7 @@ while(number != 0)
       flag = false;
       break;
    }
+   number /= 10;
 }
 
 flag ?  cout << "Yes\n" :  cout << "No\n";
