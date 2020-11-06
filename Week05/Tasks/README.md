@@ -8,6 +8,7 @@
       6
 Изход: "yes"
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week05/Tasks/Task1)
 
 Задача 2:
 =
@@ -16,6 +17,8 @@
 Вход: 6
 Изход: 12
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week05/Tasks/Task2)
+
 Задача 3:
 =
 Напишете програма, която въвежда от клавиатурата цяло число n и след това толкова на брой числа като се намери сумата от тях. Ако при въвеждането на числата се въведе 0, то да се прекрати програмата и да се изведе сумата до момента.
@@ -28,10 +31,13 @@
       0
 Изход: 17
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week05/Tasks/Task3)
 
 Задача 4:
 =
 Напишете програма, която намира и извежда всички трицифрени числа, сумата от цифрите на които е просто число.
+
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week05/Tasks/Task4)
 
 Бонус задача:
 =
