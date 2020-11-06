@@ -1,0 +1,61 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  //1 - начин - принтиране на числото в обратен ред
+	int number;
+
+	cout << "Input number: ";
+	cin >> number;
+
+	while (number != 0)
+	{
+		cout << number % 10;
+		number /= 10;
+	}
+
+	cout << number << endl;
+  
+  //2 - начин - запазване на входното число в друга променлива и принтиране на цифрите на числото в обратен ред
+  int number; //входното число
+	int copyNumber; //променлива, в която ще се запази стойността на входното число
+
+	cout << "Input number: ";
+	cin >> number;
+	copyNumber = number;
+
+	while (number != 0)
+	{
+		cout << number % 10;
+		number /= 10;
+	}
+
+	cout << number << endl;
+	cout << copyNumber << endl;
+  
+  //3 - начин - запазване на входното число в променлива и запазване на обърнатото входно число в друга променлива
+  int number; //входното число
+	int copyNumber; //променлива, в която ще се запази стойността на входното число
+	int newNumber = 0; //променлива, в която ще бъде входното число в обратен ред
+
+	cout << "Input number: ";
+	cin >> number; 
+	copyNumber = number;
+	
+	while (number > 10) //не се взима последната последната цифра
+	{
+		cout << number % 10;
+		newNumber += number % 10;
+		newNumber *= 10;
+		number /= 10;
+	}
+	newNumber += number; //добавя се извън цикъла последната цифра(може и по друг начин)
+
+	cout << newNumber << endl;
+	cout << number << endl;
+	cout << copyNumber << endl;
+  
+  return 0;
+}
