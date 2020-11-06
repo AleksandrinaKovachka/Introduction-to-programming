@@ -25,6 +25,7 @@
 Вход: 12345
 Изход: 54321
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week04/Tasks/Task3)
 
 Бонус задача:
 =
