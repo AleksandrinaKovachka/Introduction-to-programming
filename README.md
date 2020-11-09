@@ -11,4 +11,6 @@
 
 [Седмица 5](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week05/README.md)
 
+[Седмица 6](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week06/README.md)
+
 [Допълнителен материал](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Bitwise-operations)
