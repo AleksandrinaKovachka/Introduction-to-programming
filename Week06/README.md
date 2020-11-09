@@ -1,5 +1,5 @@
 # Седмица 6 - Масиви
 
-[Теория]()
+[Теория](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week06/Theory)
 
-[Задачи]()
+[Задачи](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week06/Tasks)
