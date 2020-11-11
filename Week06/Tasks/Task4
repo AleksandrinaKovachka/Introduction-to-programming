@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  char arr[100];
+	int n;
+
+	do
+	{
+		cout << "Input n:";
+		cin >> n;
+	} while (n < 1 || n > 100);
+
+	for (int i = 0; i < n; ++i)
+	{
+		cout << "arr[" << i << "] = ";
+		cin >> arr[i];
+	}
+
+	bool isPalindrom = true;
+	for (int i = 0; i < n / 2; ++i)
+	{
+		if (arr[i] != arr[n - 1 - i])
+		{
+			isPalindrom = false;
+			break;
+		}
+	}
+
+	if (isPalindrom)
+	{
+		cout << "palindrom\n";
+	}
+	else
+	{
+		cout << "is not palindrom\n";
+	}
+
+  return 0;
+}
