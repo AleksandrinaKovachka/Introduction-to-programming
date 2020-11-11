@@ -5,6 +5,7 @@
 Напишете програма, която въвежда от клавиатурата цяло число от 2 до 25. Въведете толкова
 елементи в масива, колкото е въведеното от клавиатурата число ( Нека масива да е с
 максимален размер 100). Изведете на екрана всички прости числа
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week06/Tasks/Task1)
 
 Задача 2:
 =
@@ -23,6 +24,7 @@
 
 Изход: No even numbers
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week06/Tasks/Task2)
 
 Задача 3:
 =
@@ -36,6 +38,7 @@
 
 Изход: 354 , 6, 87, 4 , 6, 73, 11
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week06/Tasks/Task3)
 
 Задача 4:
 =
@@ -52,6 +55,7 @@ y e s
 
 Изход: Yes
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week06/Tasks/Task4)
 
 Задача 5:
 =
@@ -63,6 +67,7 @@ y e s
 
 Изход: * b c d
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week06/Tasks/Task5)
 
 Задача 6:
 =
