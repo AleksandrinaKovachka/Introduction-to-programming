@@ -13,4 +13,6 @@
 
 [Седмица 6](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week06/README.md)
 
+[Примерни задачи за контролно 1](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Examples-Exam1)
+
 [Допълнителен материал](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Bitwise-operations)
