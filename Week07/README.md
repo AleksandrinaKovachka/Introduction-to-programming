@@ -1,5 +1,5 @@
 # Седмица 7 - Двумерни масиви
 
-Теория
+[Теория](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week07/Tasks)
 
-Задачи
+[Задачи](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week07/Theory)
