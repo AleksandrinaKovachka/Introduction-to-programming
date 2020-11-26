@@ -1,5 +1,5 @@
 # Седмица 8 - Функции
 
-Теория
+[Теория](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week08/Theory)
 
-Задачи
+[Задачи](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week08/Tasks)
