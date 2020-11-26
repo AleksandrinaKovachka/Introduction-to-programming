@@ -15,4 +15,8 @@
 
 [Примерни задачи за контролно 1](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Examples-Exam1)
 
+[Седмица 7](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week07/README.md)
+
+[Седмица 8](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week08/README.md)
+
 [Допълнителен материал](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Bitwise-operations)
