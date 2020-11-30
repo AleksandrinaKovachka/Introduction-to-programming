@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int maxElement(int a, int b);
+void maxElement2(int a, int b);
+
+int main()
+{
+	int max = maxElement(3, 4);
+  
+  maxElement2(3, 4);
+	
+	return 0;
+}
+
+int maxElement(int a, int b)
+{
+	if (a > b)
+	{
+		return a;
+	}
+	else
+	{
+		return b;
+	}
+}
+
+void maxElement2(int a, int b)
+{
+	if (a > b)
+	{
+		cout << "Max is: " << a << endl;
+	}
+	else
+	{
+		cout << "Max is: " << b << endl;
+	}
+}
