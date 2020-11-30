@@ -12,6 +12,7 @@ b = 12;
 Изход: 
 12
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week08/Tasks/Task1)
 
 Задача 2:
 =
@@ -25,6 +26,7 @@ c = 19 ,d = 7
 Изход: 
 19
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week08/Tasks/Task2)
 
 Задача 3:
 =
@@ -37,6 +39,7 @@ c = 19 ,d = 7
 Изход: 
 321
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week08/Tasks/Task3)
 
 Задача 4:
 =
@@ -50,6 +53,7 @@ c = 19 ,d = 7
 Изход: 
 5
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week08/Tasks/Task4)
 
 Задача 5:
 =
@@ -62,6 +66,7 @@ double), която приема като аргумент страните на
 b = 6
 Изход: P = 30
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week08/Tasks/Task5)
 
 Задача 6:
 =
@@ -73,6 +78,7 @@ b = 6
 Изход: 
 Prime
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week08/Tasks/Task6)
 
 Задача 7:
 =
@@ -84,3 +90,4 @@ Prime
 
 Изход: First quadrant 
 ```
+[Решение...](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week08/Tasks/Task7)
