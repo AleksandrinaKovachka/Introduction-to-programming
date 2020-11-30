@@ -1,0 +1,46 @@
+#include <iostream>
+
+using namespace std;
+
+void ckvadrant(int x, int y);
+
+int main()
+{
+	int x, y;
+
+	cin >> x;
+	cin >> y;
+
+	ckvadrant(x, y);
+	
+	return 0;
+}
+
+void ckvadrant(int x, int y)
+{
+	if (x > 0 && y > 0)
+	{
+		cout << "first\n";
+		return;
+	}
+	else if (x < 0 && y > 0)
+	{
+		cout << "second\n";
+	}
+	else if (x < 0 && y < 0)
+	{
+		cout << "third\n";
+	}
+	else if (x > 0 && y < 0)
+	{
+		cout << "Four\n";
+	}
+	else if (x == 0)
+	{
+		cout << "ordinate\n";
+	}
+	else if (y == 0)
+	{
+		cout << "abcissa\n";
+	}
+}
