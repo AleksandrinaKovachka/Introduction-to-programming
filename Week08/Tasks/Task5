@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+double rectanglePerimeter(double a, double b);
+
+int main()
+{
+	double perimeter = rectanglePerimeter(3, 4);
+	
+	return 0;
+}
+
+double rectanglePerimeter(double a, double b)
+{
+	//2a + 2b
+	//int perimeter = 2 * a + 2 * b;
+	//return perimeter;
+	return 2 * a + 2 * b;
+}
