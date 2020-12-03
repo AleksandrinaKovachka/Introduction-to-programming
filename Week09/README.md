@@ -1,5 +1,5 @@
 # Седмица 9 - Указатели
 
-Теория
+[Теория](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week09/Theory)
 
-Задачи
+[Задачи](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week09/Tasks)
