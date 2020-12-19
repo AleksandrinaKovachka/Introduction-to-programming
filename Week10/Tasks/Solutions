@@ -1,0 +1,208 @@
+#include "pch.h"
+#include <iostream>
+
+using namespace std;
+
+void fullArr(int arr[], int size)
+{
+	for (int i = 0; i < size; ++i)
+	{
+		cin >> arr[i];
+	}
+}
+
+void printArr(int arr[], int size)
+{
+	for (int i = 0; i < size; ++i)
+	{
+		cout << arr[i] << ' ';
+	}
+	cout << endl;
+}
+
+void fullMatrix(int matrix[][4], int row_size)
+{
+	for (int i = 0; i < row_size; ++i)
+	{
+		for (int j = 0; j < 4; ++j)
+		{
+			cin >> matrix[i][j];
+		}
+	}
+}
+
+void printMatrix(int matrix[][4], int row_size)
+{
+	for (int i = 0; i < row_size; ++i)
+	{
+		for (int j = 0; j < 4; ++j)
+		{
+			cout << matrix[i][j] << ' ';
+		}
+		cout << endl;
+	}
+	cout << endl;
+}
+
+void add(int* temp)
+{
+	*temp += 4;
+}
+
+void add2(int& temp)
+{
+	temp += 4;
+}
+
+void change(int* k, int* m)
+{
+	//cout << *a + 4;
+	*k += 4;
+	*m += 4;
+}
+
+void change2(int& a, int& b)
+{
+	a += 4;
+	b += 4;
+}
+
+void max(int arr[], unsigned size, int& max)
+{
+	int maxElement = arr[0];
+
+	for (unsigned i = 1; i < size; ++i)
+	{
+		if (maxElement < arr[i])
+		{
+			maxElement = arr[i];
+		}
+	}
+
+	max = maxElement;
+}
+
+void replace(int x[], int size, int replaceWhat, int replaceWith)
+{
+	for (int i = 0; i < size; ++i)
+	{
+		if (x[i] == replaceWhat)
+		{
+			x[i] = replaceWith;
+		}
+	}
+}
+
+void minMatrix(int matrix[][4], unsigned row_size, int& min)
+{
+	int minElement = matrix[0][0];
+
+	for (int i = 0; i < row_size; ++i)
+	{
+		for (int j = 0; j < 4; ++j)
+		{
+			if (minElement > matrix[i][j])
+			{
+				minElement = matrix[i][j];
+			}
+		}
+	}
+
+	min = minElement;
+}
+
+int main()
+{
+	//1
+	/*int arr[100];
+	int n;
+
+	cout << "Input n: ";
+	cin >> n;
+
+	fullArr(arr, n);
+	printArr(arr, n);*/
+
+	//2
+	/*int matrix[100][3];
+	int row;
+
+	cin >> row;
+
+	fullMatrix(matrix, row);
+
+	printMatrix(matrix, row);*/
+
+	/*int a = 4;
+
+	add(&a); //a = 8
+
+	cout << a << endl;
+
+	add2(a);
+
+	cout << a << endl;*/
+
+	//3
+	/*int a, b;
+
+	cin >> a;
+	cin >> b;
+
+	change(&a, &b);
+
+	cout << a << ' ' << b << endl;*/
+
+	//4
+	/*int a, b;
+
+	cin >> a;
+	cin >> b;
+
+	change2(a, b);
+
+	cout << a << ' ' << b << endl;*/
+
+	//5
+	/*int arr[100];
+	unsigned size;
+
+	cout << "Input size:";
+	cin >> size;
+
+	fullArr(arr, size);
+
+	int m = 12345;
+	max(arr, size, m);
+
+	cout << m << endl;*/
+
+	//6
+	/*int arr[100];
+	int size;
+
+	cout << "Input size:";
+	cin >> size;
+
+	fullArr(arr, size);
+
+	replace(arr, size, 2, 11);
+
+	printArr(arr, size);*/
+
+	//7
+	int matrix[100][4];
+	int row;
+
+	cin >> row;
+
+	fullMatrix(matrix, row);
+
+	int min = -5;
+	minMatrix(matrix, row, min);
+
+	cout << min << endl;
+	
+	return 0;
+}
+
