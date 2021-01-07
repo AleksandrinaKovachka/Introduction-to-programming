@@ -25,4 +25,6 @@
 
 [Седмица 11](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week11/README.md)
 
+[Седмица 12](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week12/README.md)
+
 [Допълнителен материал](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Bitwise-operations)
