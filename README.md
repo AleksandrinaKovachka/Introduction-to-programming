@@ -27,4 +27,6 @@
 
 [Седмица 12](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week12/README.md)
 
+[Примерни задачи за контролно 2](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Examples-Exam2)
+
 [Допълнителен материал](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Bitwise-operations)
