@@ -1,5 +1,5 @@
 # Седмица 15 - Въведение в ООП
 
-Теория
+[Теория](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week15/Theory)
 
-Задачи
+[Задачи](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Week15/Tasks)
