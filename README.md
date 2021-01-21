@@ -29,4 +29,6 @@
 
 [Примерни задачи за контролно 2](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Examples-Exam2)
 
+[Седмица 15](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week15/README.md)
+
 [Допълнителен материал](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Bitwise-operations)
