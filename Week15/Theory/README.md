@@ -31,3 +31,44 @@ struct address
 };
 ````
 
+Инициализация:
+=
+```
+Пример:
+struct Type
+{   
+  int number; 
+  double avg;
+};
+
+int maint()
+{
+  Type t1 = {2, 3.8};
+  Type t2;
+  t2 = t1; //присвояване
+  
+  return 0;
+}
+````
+
+Достъп до поле от структурата:
+=
+- достъпът до поле на структурата се осъществява с оператор .
+```
+Пример:
+struct Type
+{   
+  int number; 
+  double avg;
+};
+
+int maint()
+{
+  Type t1 = {2, 3.8};
+  cout << t1.number;
+  t1.avg = 4;
+  cout << t1.avg;
+  
+  return 0;
+}
+````
