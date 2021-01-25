@@ -31,4 +31,6 @@
 
 [Седмица 15](https://github.com/AleksandrinaKovachka/Introduction-to-programming/blob/main/Week15/README.md)
 
+[Подготовка за изпит](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Example-theory-tasks)
+
 [Допълнителен материал](https://github.com/AleksandrinaKovachka/Introduction-to-programming/tree/main/Bitwise-operations)
