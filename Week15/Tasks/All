@@ -1,0 +1,174 @@
+#include <iostream>
+
+using namespace std;
+
+//1
+struct Student
+{
+	int fn;
+	double avg;
+
+	void printData()
+	{
+		cout << fn << " " << avg;
+	}
+};
+
+void printData(Student& st1)
+{
+	st1.avg = 3.70;
+	cout << st1.fn << " " << st1.avg << endl;
+}
+
+//2 - Да се дефинира структура Planet, определяща планета по име (символен низ), разстояние от слънцето, диаметър и маса (реални числа). 
+
+struct Planet
+{
+	char name[256];
+	int dist;
+	double diametur;
+	double masa;
+
+	void print()
+	{
+		cout << name << " " << dist << " " << diametur << " " << masa << endl;
+	}
+};
+
+void print(Planet* pl, int size)
+{
+	for (int i = 0; i < size; ++i)
+	{
+		pl[i].print();
+	}
+}
+
+//3
+struct Rectangle
+{
+	double a;
+	double b;
+
+	void print()
+	{
+		cout << a << " " << b << endl;
+	}
+
+	double getArea()
+	{
+		return a * b;
+	}
+
+	double getPerimeter()
+	{
+		return (2 * (a + b));
+	}
+};
+
+//4 - Book определяща книгата по име на книгата , година, цена и име на автора 
+//функции, които връщат годината и цената на книга
+//функция която определя дали дадена книга е нова(== 2021)
+//функция която разменя цените на 2 книги
+
+struct Book
+{
+	char name[256];
+	unsigned year;
+	double price;
+	char nameAuthor[256];
+
+	unsigned getYear()
+	{
+		return year;
+	}
+
+	double getPrice()
+	{
+		return price;
+	}
+
+	bool bookNew()
+	{
+		return year < 2021;
+	}
+
+	void reversePrice(Book& otherBook)
+	{
+		double temp = price;
+		price = otherBook.getPrice();
+		otherBook.price = temp;
+	}
+
+	void print()
+	{
+		cout << name << " " << year << " " << price << " " << nameAuthor << endl;
+	}
+};
+
+void sortBooksByYear(Book* books, unsigned size)
+{
+	for (int i = 0; i < size - 1; ++i)
+	{
+		for (int j = 0; j < size - 1 - i; ++j)
+		{
+			if (books[j].year > books[j + 1].year)
+			{
+				unsigned temp = books[j].year;
+				books[j].year = books[j + 1].year;
+				books[j + 1].year = temp;
+			}
+		}
+	}
+}
+
+int main()
+{
+	//1
+	//Student st1 = { 1111, 5.70 };
+
+	//st1.printData();
+
+	//printData(st1);
+	//cout << st1.avg << endl;
+
+	//2
+	/*Planet pl[3];
+	pl[0] = { "pl1", 100, 200, 14.8 };
+	pl[1] = { "pl2", 101, 201, 15.8 };
+	pl[2] = { "pl3", 102, 202, 16.8 };
+
+	pl[0].print();
+
+	for (int i = 0; i < 3; ++i)
+	{
+		pl[i].print();
+	}
+	cout << endl;
+
+	print(pl, 3);*/
+
+	//3
+	/*Rectangle r1 = { 2, 3 };
+
+	r1.print();
+	cout << r1.getPerimeter() << endl;
+	cout << r1.getArea() << endl;*/
+
+	//4
+	/*Book books[5];
+	books[0] = { "bookName", 2020, 15.9, "autherName1" };
+	books[1] = { "bookName", 2018, 16.9, "autherName2" };
+	books[2] = { "bookName", 2021, 17.9, "autherName3" };
+	books[3] = { "bookName", 2021, 18.9, "autherName4" };
+	books[4] = { "bookName", 2007, 19.9, "autherName5" };
+
+	sortBooksByYear(books, 5);
+
+	for (int i = 0; i < 5; ++i)
+	{
+		books[i].print();
+	}*/
+
+
+	return 0;
+}
