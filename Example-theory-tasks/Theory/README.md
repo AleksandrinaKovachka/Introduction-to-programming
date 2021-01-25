@@ -41,6 +41,7 @@ void locScope()
 }
 
 ```
+```
 Локалните променливи/имена скриват глобалните
 int x = 41;
 int giveX()
@@ -124,6 +125,8 @@ void makeSelection()
 			cout << "End\n";
 	}
 }
+
+```
 
 ```
 void fun()
